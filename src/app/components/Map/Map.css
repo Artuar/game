@@ -1,3 +1,47 @@
-.map {
+.content {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+}
 
+.mapWrapper {
+  max-width: 90%;
+  max-height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.map {
+  padding: 5px;
+  border: 1px solid #7b1fa2;
+  margin: 10px;
+}
+
+.itemButton {
+  width: 22px;
+  height: 22px;
+  margin: 3px;
+  border-radius: 1px;
+  padding: 0;
+  color: transparent;
+  min-width: 17px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.opened {
+  color: #ffffff;
+  background: #212121;
+  border-color: #212121;
+}
+
+.finalText {
+  font-size: 24px;
 }

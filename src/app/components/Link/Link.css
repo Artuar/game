@@ -1,0 +1,24 @@
+.wrapper {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+}

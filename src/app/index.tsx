@@ -1,7 +1,5 @@
-import * as React from 'react';
-import { GameApp } from 'app/components';
-import { hot } from 'react-hot-loader';
+import * as React from "react";
+import { hot } from "react-hot-loader";
+import { GameApp } from "app/components/GameApp/GameApp";
 
-export const App = hot(module)(() => (
-  <GameApp/>
-));
+export const App = hot(module)(() => <GameApp />);

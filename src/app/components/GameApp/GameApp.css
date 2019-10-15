@@ -1,0 +1,39 @@
+html {
+  background: #212121;
+  height: 100%;
+  font-size: 16px;
+  min-height: 500px;
+  min-width: 500px;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  color: #ffffff;
+  border: 1px solid #7b1fa2;
+  background: #7b1fa2;
+  padding: 9px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  padding: 9px;
+  border: 1px solid #7b1fa2;
+  background: #212121;
+  color: #ffffff;
+  outline: none;
+  font-size: 16px;
+}
+
+.game {
+}
+
+.content {
+  height: 90vh;
+}

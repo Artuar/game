@@ -14,9 +14,15 @@
     "outDir": "build",
     "lib": ["es6", "es7", "dom"],
     "baseUrl": "src",
+    "esModuleInterop": true,
     "paths": {
       "app/*": ["./app/*"]
     }
   },
-  "exclude": ["build", "node_modules"]
+  "exclude": [
+    "build",
+    "node_modules",
+    "./src/**/*.spec.ts",
+    "./src/**/*.spec.tsx"
+  ]
 }

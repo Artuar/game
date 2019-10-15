@@ -1,7 +1,7 @@
 ## Installation
 
 ```
-$ npm ci
+$ npm i
 ```
 
 ## Running
