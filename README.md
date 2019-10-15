@@ -16,6 +16,12 @@ $ npm start
 $ npm run build
 ```
 
+## Test
+
+```
+$ npm run test
+```
+
 ## Format code
 
 ```
